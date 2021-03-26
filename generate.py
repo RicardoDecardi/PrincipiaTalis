@@ -10,7 +10,7 @@ def permutations(dice, faces):
 
 
 # Checks if all items in a list are equal to 1.
-# If they are it means that iteration is finished.
+# If they are it means that iteration is finished. (unless there are zeroes.)
 def end_check(perms):
     if sum(perms) == len(perms):
         return True
